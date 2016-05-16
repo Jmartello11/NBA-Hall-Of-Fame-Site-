@@ -1,0 +1,115 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<link href="../style.css" rel="stylesheet" type="text/css">
+<!-- TemplateParam name="allen-iverson" type="boolean" value="true" -->
+<!-- TemplateParam name="shaq" type="boolean" value="true" -->
+<!-- TemplateParam name="yao-ming" type="boolean" value="true" -->
+<!-- TemplateParam name="tom-izzo" type="boolean" value="true" -->
+</head>
+
+<body>
+<ul>
+  <li>
+    <a href="../index.html">
+    Home 
+    </a>
+  </li>
+  <li>
+    <a href="../ai/index.html">
+    Allen Iverson 
+    </a>
+    <!-- TemplateBeginIf cond="_document['allen-iverson']" -->
+    <blockquote>
+      <ul>
+        <li>
+          <a href="../ai/philadelphia-76ers.html">
+            Philadelphia 76ers
+          </a>
+        </li>
+        <li>
+          <a href="../ai/denver-nuggets.html">
+            Denver Nuggets
+          </a>
+        </li>
+        <li>
+          <a href="../ai/mephis-grizzlies.html">
+        Memphis Grizzlies</a></li>
+      </ul>
+    </blockquote>
+    <!-- TemplateEndIf -->  </li>
+  <li>
+    <a href="../shaq/index.html">
+    Shaquille O'Neal
+    </a>
+    <!-- TemplateBeginIf cond="shaq" -->
+    <blockquote>
+      <ul>
+        <li>
+          <a href="../shaq/orlando-magic.html">
+            Orlando Magic
+          </a>
+        </li>
+        <li>
+          <a href="../shaq/los-angeles-lakers.html">
+            Los Angeles Lakers
+          </a>
+        </li>
+        <li>
+          <a href="../shaq/miami-heat.html">
+            Miami Heat
+          </a>
+        </li>
+        <li>
+          <a href="../shaq/later-years.html">
+            Later Years
+          </a>
+        </li>
+      </ul>
+    </blockquote>
+    <!-- TemplateEndIf -->  </li>
+  <li>
+    <a href="../yao/index.html">
+    Yao Ming
+    </a>
+    <!-- TemplateBeginIf cond="_document['yao-ming']" -->
+    <blockquote>
+      <ul>
+        <li><a href="../yao/cba.html">
+          CBA</a>          </li>
+        <li><a href="../yao/houston-rockets.html">
+          Houston Rockets
+        </a></li>
+      </ul>
+    </blockquote>
+    <!-- TemplateEndIf -->  </li>
+  <li>
+    <a href="../izzo/index.html">
+    Tom Izzo 
+    </a>
+    <!-- TemplateBeginIf cond="_document['tom-izzo']" -->
+    <blockquote>
+      <ul>
+        <li>
+          <a href="../izzo/michugan-state.html">
+            Michigan State
+          </a>
+        </li>
+        <li>
+          <a href="../izzo/usa-basketball.html">
+            USA Basketball
+          </a>
+        </li>
+      </ul>
+    </blockquote>
+    <!-- TemplateEndIf -->  </li>
+</ul>
+<!-- TemplateBeginEditable name="Content" --><!-- TemplateEndEditable -->
+</body>
+</html>
